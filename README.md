@@ -1,6 +1,6 @@
 # happiness-analysis
 📄 Reports
 
-[English Report](report/happiness_report_en.pdf)
+[English Report](01_report/happiness_report_en.pdf)
 
-[日本語版レポート](report/happiness_report_ja.pdf)
+[日本語版レポート](01_report/happiness_report_ja.pdf)
