@@ -6,6 +6,7 @@ install.packages("tidyverse")
 # ----------------------------
 # 2. Load Data
 # ----------------------------
+library(tidyverse)
 library(readr)
 data <- read_csv("happiness_2019.csv")
 
