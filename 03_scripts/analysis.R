@@ -15,7 +15,7 @@ data <- read_csv("happiness_2019.csv")
 df <- data %>%
           rename(
                   happiness = "Score",
-                 gdp = "GDP per capita",
+                  gdp = "GDP per capita",
                   support = "Social support",
                   region = "Country or region"
               ) %>%
