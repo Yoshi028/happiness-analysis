@@ -8,7 +8,7 @@ install.packages("tidyverse")
 # ----------------------------
 library(tidyverse)
 library(readr)
-data <- read_csv("happiness_2019.csv")
+data <- read_csv("02_data/happiness_2019.csv")
 
 # ----------------------------
 # 3. Data Cleaning
@@ -73,7 +73,7 @@ ggplot(df, aes(x = gdp, y = happiness)) +
     y = "Happiness Score"
   )
 
-ggsave("gdp_vs_happiness.png", width = 6, height = 4, dpi = 300)
+ggsave("01_report/figures/gdp_vs_happiness.png", width = 6, height = 4, dpi = 300)
 
 # 8-2 Social Support vs Happiness
 ggplot(df, aes(x = support, y = happiness)) +
@@ -84,7 +84,7 @@ ggplot(df, aes(x = support, y = happiness)) +
     y = "Happiness Score"
   )
 
-ggsave("support_vs_happiness.png", width = 6, height = 4, dpi = 300)
+ggsave("01_report/figures/support_vs_happiness.png", width = 6, height = 4, dpi = 300)
 
 # 8-3 Nordic vs Other
 ggplot(df, aes(x = nordic, y = happiness, fill = nordic)) +
@@ -95,7 +95,7 @@ ggplot(df, aes(x = nordic, y = happiness, fill = nordic)) +
   ) +
   theme(legend.position = "none")
 
-ggsave("nordic_vs_other.png", width = 6, height = 4, dpi = 300)
+ggsave("01_report/figures/nordic_vs_other.png", width = 6, height = 4, dpi = 300)
 
 # 8-4 Predicted vs Actual
 p4 <- ggplot(df, aes(x = predicted, y = happiness)) +
@@ -106,7 +106,7 @@ p4 <- ggplot(df, aes(x = predicted, y = happiness)) +
     y = "Actual Happiness"
   )
 
-ggsave("predicted_vs_actual.png", width = 6, height = 4, dpi = 300)
+ggsave("01_report/figures/predicted_vs_actual.png", width = 6, height = 4, dpi = 300)
 
 # ----------------------------
 # 9. End of Script
