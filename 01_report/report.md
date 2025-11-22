@@ -76,9 +76,11 @@ This study aims to examine:
 ### 3.1 Descriptive Findings and Bivariate Relationships
 The initial analyses examined the associations between happiness scores and two key predictors: GDP per capita and social support. Scatter plots showed clear positive relationships in both cases: countries with higher economic prosperity and stronger social networks tend to report higher happiness scores. A comparison between Nordic and non-Nordic countries further highlighted this pattern, as Nordic countries consistently cluster at the higher end of the happiness scale.
 
+![Relationship Between GDP per Capita and Happiness Score](figures/gdp_vs_happiness.png)  
 **Figure 1. Relationship Between GDP per Capita and Happiness Score**  
 Higher GDP per capita is associated with higher national happiness.
 
+![Relationship Between Social Support and Happiness Score](figures/support_vs_happiness.png)
 **Figure 2. Relationship Between Social Support and Happiness Score**  
 Countries with stronger social support systems tend to report higher happiness.
 
@@ -98,6 +100,7 @@ To evaluate the relative contributions of GDP per capita and social support, thr
 ### 3.3 Model Fit: Predicted vs Actual Values
 A scatter plot comparing predicted and actual happiness scores for Model 3 showed that most observations lie close to the identity line, indicating strong model accuracy. The distribution of residuals (Residual Standard Error = 0.610) further supports that the model provides a reliable approximation of real-world happiness levels across countries.
 
+![Predicted vs. Actual Happiness Scores (Model 3)](figures/predicted_vs_actual.png)
 **Figure 3. Predicted vs. Actual Happiness Scores (Model 3)**  
 The predicted values lie close to the diagonal line, indicating strong model accuracy.
 
@@ -107,6 +110,7 @@ The predicted values lie close to the diagonal line, indicating strong model acc
 - Nordic countries show significantly higher median happiness scores.  
 - Their GDP and Social Support levels are also consistently high.
 
+![Comparison of Happiness Scores: Nordic vs Other Countries](figures/nordic_vs_other.png)
 **Figure 4. Comparison of Happiness Scores: Nordic vs Other Countries**  
 Nordic countries consistently show higher happiness levels compared to other nations.
 
